@@ -19,3 +19,30 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=arashad-ahamad&show_icons=true&locale=en&layout=compact" alt="arashad-ahamad" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=arashad-ahamad&show_icons=true&locale=en" alt="arashad-ahamad" /></p>
+
+name: Update GitHub Profile README
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Daily at midnight UTC time
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      
+      - name: Update README with Commit Count
+        run: |
+          # Fetch commit count
+          COMMITS=$(git rev-list --count HEAD)
+          
+          # Update README.md
+          echo "Total Commits (2025): $COMMITS" > README.md
+          git config --global user.name "Arashad Ahamad"
+          git config --global user.email "96arashad@gmail.com"
+          git add README.md
+          git commit -m "Updated commit count in README"
+          git push
+
