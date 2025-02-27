@@ -1,0 +1,27 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Ye daily 12 AM (UTC) par run hoga.
+  workflow_dispatch:  # Ye manual trigger ke liye bhi enable karega.
+
+jobs:
+  update-remi-md:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Update remi.md with GitHub Stats
+      uses: anuraghazra/github-readme-stats@v1
+      with:
+        USERNAME: ${{ github.repository_owner }}
+
+    - name: Commit and Push Changes
+      run: |
+        git config --local user.email "github-actions@github.com"
+        git config --local user.name "GitHub Actions"
+        git add remi.md
+        git commit -m "🔄 Auto-update remi.md with latest stats"
+        git push
