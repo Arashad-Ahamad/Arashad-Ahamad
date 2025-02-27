@@ -20,3 +20,7 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=arashad-ahamad&show_icons=true&locale=en" alt="arashad-ahamad" /></p>
 
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=ArashadAhamead&show_icons=true&locale=en&layout=compact" alt="ArashadAhamead" /></p>
+<br/>
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ArashadAhamead&show_icons=true&locale=en" alt="ArashadAhamead" /></p>
