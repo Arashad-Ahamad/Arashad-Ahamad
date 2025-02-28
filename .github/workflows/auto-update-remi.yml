@@ -9,23 +9,23 @@ permissions:
   contents: write
 
 jobs:
-  update-remi-md:
+  update-readme-md:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v3
 
-    - name: Fetch GitHub Stats and Update remi.md
+    - name: Fetch GitHub Stats and Update README.md
       run: |
-        echo "![GitHub Stats](https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=radical)" > remi.md
-        echo "" >> remi.md
-        echo "![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=${{ github.repository_owner }}&layout=compact&theme=radical)" >> remi.md
+        echo "![GitHub Stats](https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=radical)" > README.md
+        echo "" >> README.md
+        echo "![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=${{ github.repository_owner }}&layout=compact&theme=radical)" >> README.md
 
     - name: Commit and Push Changes
       run: |
         git config --local user.email "github-actions@github.com"
         git config --local user.name "GitHub Actions"
-        git add remi.md
-        git commit -m "🔄 Auto-update remi.md with latest stats & top languages" || echo "No changes to commit"
+        git add README.md
+        git commit -m "🔄 Auto-update README.md with latest stats & top languages" || echo "No changes to commit"
         git push origin main
