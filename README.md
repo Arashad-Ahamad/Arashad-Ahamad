@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=arashad-ahamad&label=Profile%20views&color=0e75b6&style=flat" alt="arashad-ahamad" /> </p>
 
-- 🌱 I’m currently learning **React.js**
+- 🌱 I’m currently learning **Tailwind CSS**
 
 - 📫 How to reach me **96arashad@gmail.com**
 
