@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Arshad Ahmed</h1>
+<h1 align="center">Hi 👋, I'm Arashad Ahamad</h1>
 <h3 align="center">A passionate Front-End Developer from India</h3>
 
 <p align="center"> 
