@@ -10,7 +10,7 @@
 ### 🚀 About Me
 
 - 🌱 I’m currently learning **React JS & Redux Toolkit**
-- 💻 Completed **183 Days** of #200DaysOfCode  
+- 💻 Completed **195 Days** of #200DaysOfCode  
 - 🚀 Built **12+ responsive & interactive projects**
 - 📫 Reach me at: **96arashad@gmail.com**
 
