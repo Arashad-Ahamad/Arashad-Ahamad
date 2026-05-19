@@ -7,11 +7,11 @@
 
 ---
 
-### 🚀 About Me
+##  About Me
 
-- 🌱 I’m currently learning **React JS & Redux Toolkit**
-- 💻 Completed **195 Days** of #200DaysOfCode  
-- 🚀 Built **12+ responsive & interactive projects**
+- 💼 Web Development Intern at **Genicminds**
+- 💻 Completed **200 Days** of #200DaysOfCode
+- 🚀 Built **4+ live projects** (E-commerce, Country Explorer, CRUD App, Portfolio)
 - 📫 Reach me at: **96arashad@gmail.com**
 
 ---
@@ -29,7 +29,7 @@
 
 ---
 
-### 🛠️ Languages and Tools:
+###  Languages and Tools:
 
 <p align="left"> 
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" width="40" />
